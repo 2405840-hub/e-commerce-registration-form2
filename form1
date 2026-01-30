@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E-Commerce Business Registration</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      background: #007bff;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>E-Commerce Business Registration</h2>
+
+    <form>
+      <label>Business Name</label>
+      <input type="text" required>
+
+      <label>Owner Full Name</label>
+      <input type="text" required>
+
+      <label>Email Address</label>
+      <input type="email" required>
+
+      <label>Phone Number</label>
+      <input type="tel" required>
+
+      <label>Business Type</label>
+      <select required>
+        <option value="">Select business type</option>
+        <option>Retail</option>
+        <option>Wholesale</option>
+        <option>Digital Products</option>
+        <option>Services</option>
+      </select>
+
+      <label>Country of Origin</label>
+      <select required>
+        <option value="">Select country</option>
+        <option>Kenya</option>
+        <option>United States</option>
+        <option>United Kingdom</option>
+        <option>Canada</option>
+        <option>Germany</option>
+        <option>India</option>
+        <option>China</option>
+        <option>South Africa</option>
+        <option>Australia</option>
+      </select>
+
+      <label>Preferred Web Hosting Provider</label>
+      <select required>
+        <option value="">Select web host</option>
+        <option>Shopify</option>
+        <option>WooCommerce</option>
+        <option>BigCommerce</option>
+        <option>Wix</option>
+        <option>Squarespace</option>
+      </select>
+
+      <button type="submit">Register Business</button>
+    </form>
+  </div>
+
+</body>
+</html>
